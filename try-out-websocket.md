@@ -2,7 +2,7 @@
 
 ## Using `fastapi`
 
-```
+```bash
 # create server
 uv run --with fastapi --with "uvicorn[standard]" python -c "
 import uvicorn
@@ -34,7 +34,7 @@ wscat -c ws://localhost:8000/ws/echo
 
 ## Using `websockets`
 
-```
+```bash
 # create server
 uv run --with websockets python -c "
 import asyncio, websockets
